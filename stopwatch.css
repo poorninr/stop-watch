@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left,#03101f ,#1F305E,#005A9C);
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 7% 0% 0% 0%;
+    color: white;
+    text-align: center;
+}
+/* .container{
+    border:1px double white;
+    border-radius: 50%;
+    width: 315px;
+    height: 315px;
+    top: 35.1%;
+    left: 41.5%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+   
+} */
+.time-container{
+    border:7px double white;
+    border-radius: 50%;
+   position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+.time{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'League Spartan';
+}
+.time #mins{
+    font-size: 3rem;
+    background-color: transparent;
+    font-weight: 600;
+}
+.time #secs{
+    font-size: 3rem;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.time #mil-secs{
+    font-size: 1.3rem;
+    background-color: transparent;
+    font-weight: 400;
+
+}
+
+ .buttons-container{
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+}
+.buttons-container #start{
+    margin:20px;
+    padding: 11px 14px 11px 15px;
+    font-size: 1.1rem;
+    background-color: transparent ;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+}
+#start:hover{
+    cursor: pointer;
+    /* background-color: #D7EDDB;
+    color: darkblue;
+     */
+    transition: .5s;
+}
+#start:active{
+    background-color: gray;
+    color: white;
+    transform:translateY(5px);
+}
+
+.buttons-container #stop{
+    margin:20px;
+    padding: 11px 14px 11px 15px;
+    font-size: 1.1rem;
+    background-color: transparent ;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+}
+#stop:hover{
+    cursor: pointer;
+    /* background-color: #D7EDDB;
+    color: darkblue; */
+    transition: .5s;
+}
+#stop:active{
+    background-color: gray;
+    color: white;
+    transform:translateY(6px);
+}
+
+.buttons-container #reset{
+    margin:20px;
+    padding: 11px 14px 11px 15px;
+    font-size: 1.1rem;
+    background-color: transparent ;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+}
+
+#reset:hover{
+    cursor: pointer;
+    /* background-color: #D7EDDB;
+    color: darkblue; */
+    transition: .5s;
+}
+#reset:active{
+    background-color: gray;
+    color: white;
+    transform:translateY(6px);
+}
+@media screen and (max-width:640px){
+    .heading{
+        font-size: 2.5rem;
+        padding: 10% 0% 0% 0%;
+    }
+    /* .container{
+        top: 25.7%;
+        left: 18.5%;
+        position: absolute;
+    } */
+ }
